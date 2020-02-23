@@ -95,6 +95,12 @@ class Linkedlist:
         if not value_present and self.head:
             print("Value is not found in the list")
 
+    def swap_nodes(self, value1, value2):
+
+        curr_node = self.head
+
+
+
 llist = Linkedlist()
 llist.append(1)
 llist.append(2)
@@ -107,4 +113,5 @@ llist.delete_node_with_value(3)
 llist.print_list()
 print("\n")
 print(llist.len_of_list())
+
 
